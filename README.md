@@ -30,6 +30,16 @@ fork this github to your repo then sign up to heroku and connect it to your gith
 
 `TOTAL_PIC` : <h4>Total number of pic that imdb command sent</h4>
 
+# Configuration Of String VAR
+
+<ul>
+  <li>First Config All var except session now open heroku and click on <b>More</b> and then <b>Run Console</b></li>
+  
+  ![heroku2(1)](https://user-images.githubusercontent.com/46376370/112186672-48d57b80-8bf9-11eb-9465-6ad7729ee6c2.png)
+  
+  <li>After running console type python </li>
+  
+</ul>
 
 # Configuration Of Mango DB
 
