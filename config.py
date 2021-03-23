@@ -1,14 +1,15 @@
 import db
+import os
 # encryption needs here
 
-api_id = 3267581 # Api Id
-api_hash = "545f11daaf59dfae62160b12e269f50c" # Api Hash
-session_string = "Maiis_Private" # session name
-custom_command = '-' # Custom Command Triggerer
-my_id = 1587167576 # User ID
+api_id = int(os.environ['API_ID']) # Api Id
+api_hash =  os.environ['API_HASH'] # Api Hash
+session_string = os.environ['SESSION'] # session name
+custom_command = os.environ['COMMAND_TRIGGER'] # Custom Command Triggerer
+my_id = int(os.environ['MASTER_ID']) # User ID
 master_id = my_id
-total_screen_shot = 5 # total number of photos shot for imdb Search
-data_base_url = 'mongodb+srv://maiis:9ry4n5hu@cluster0.j2q7q.mongodb.net/data?retryWrites=true&w=majority'
+total_screen_shot = int(os.environ['TOTAL_PIC']) # total number of photos shot for imdb Search
+data_base_url = os.environ['DATABASE_URL']
 try:
 	data_to_remove = db.get_data()['data_to_remove']
 except:
