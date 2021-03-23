@@ -8,7 +8,6 @@ import ast
 import db
 import time
 import imdb_p
-import save_data_web
 from config import *
 import _thread
 import schedule
