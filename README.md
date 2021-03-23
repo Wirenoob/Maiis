@@ -107,7 +107,3 @@ fork this github to your repo then sign up to heroku and connect it to your gith
   ![mango18](https://user-images.githubusercontent.com/46376370/112166947-fe97ce80-8be7-11eb-93e8-cf34d8f60a91.png)
   
 </ul>
-
-
-
-
