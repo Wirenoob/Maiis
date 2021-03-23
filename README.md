@@ -37,7 +37,7 @@ fork this github to your repo then sign up to heroku and connect it to your gith
   
   ![heroku2(1)](https://user-images.githubusercontent.com/46376370/112186672-48d57b80-8bf9-11eb-9465-6ad7729ee6c2.png)
   
-  <li>After running console type python </li>
+  <li>After running console type `python get_session.py` and it will run session script and then enter your phone number with country code and then enter code after that you will get your session string</li>
   
 </ul>
 
