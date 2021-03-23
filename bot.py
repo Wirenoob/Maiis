@@ -442,27 +442,6 @@ def reset_db(_, message):
 	message.edit_text('**Data Reset Complete Every Thing Is Erased**')
 	db.update(get_data_dic)
 
-@app.on_message(filters.private & filters.text & filters.regex('&') & ~filters.me)
-def sudo_command_startner(_, message):
-	get_data_dic = db.get_data()
-	if message.chat.id in get_data_dic['sudo']:
-		if message.text == '$gclear':
-			app.send_message(-1001177299931, '.gclear')
-			time.sleep(2)
-			app.send_message(-1001177299931, '.gsetup')
-			return
-		try:
-			message_id = message.reply_to_message.message_id
-		except:
-			message_id = message.message_id
-		if message.from_user.id in get_data_dic['sudo']:
-			command = message.text
-			command = command.replace('$' , '.')
-			app.send_message(message.chat.id , command , reply_to_message_id=message_id)
-		else:
-			app.send_message(message.chat.id , '- You are not allow to use this feature-')
-		app.read_history(message.chat.id)
-
 @app.on_message(filters.private & ~filters.me & ~filters.bot)
 def check_message_data(_, message):
 	global lock_kind, list_of_allowed_user
@@ -493,23 +472,5 @@ def check_message_data(_, message):
 			# bot.send_message()
 
 # commands end here
-
-# only for owner of bot
-
-@app.on_message(filters.text & filters.me & filters.command('sudo allow', prefixes=custom_command))
-def sudo_allow(_, message):
-	get_data_dic = db.get_data()
-	get_data_dic['sudo'].append(message.chat.id)
-	message.edit_text('**Done User Allowed To Use Sudo**')
-	db.update(get_data_dic)
-
-@app.on_message(filters.text & filters.me & filters.command('sudo not allow', prefixes=custom_command))
-def sudo_not_allow(_, message):
-	get_data_dic = db.get_data()
-	get_data_dic['sudo'].remove(message.chat.id)
-	message.edit_text('**Sudo Removed**')
-	db.update(get_data_dic)
-
-# only for owner of bot
 
 app.run()
