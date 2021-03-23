@@ -1,5 +1,5 @@
 # Maiis
-Private bot to work with telegram files
+Private bot to work with telegram files join us now on telegram <a href='https://t.me/maiis'>@MAIIS</a>
 
 # Usage
 
