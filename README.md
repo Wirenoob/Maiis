@@ -58,7 +58,53 @@ fork this github to your repo then sign up to heroku and connect it to your gith
   
   ![mango6](https://user-images.githubusercontent.com/46376370/112160153-cee5c800-8be1-11eb-88a0-3f3389a64b2e.png)
   
-  <li></li>
+  <li>After that click on create a cluster as shown given below</li>
+  
+  ![mango7](https://user-images.githubusercontent.com/46376370/112160665-4a477980-8be2-11eb-8efc-92ca2b01c787.png)
+  
+  <li>Now select <b>Cloud Provider</b> and <b>Region</b></li>
+  
+  ![mango8](https://user-images.githubusercontent.com/46376370/112161106-b6c27880-8be2-11eb-9d59-cd64438468f9.png)
+  
+  <li>Now while your cluster is building we would go to other settings for that click on <b>Network Access</b></li>
+  
+  ![mango9](https://user-images.githubusercontent.com/46376370/112161638-3c462880-8be3-11eb-86cc-de0ed9503b26.png)
+  
+  <li>Now Click on <b>Add IP address</b></li>
+  
+  ![mango10](https://user-images.githubusercontent.com/46376370/112161984-8af3c280-8be3-11eb-9dc5-e30958db2bc1.png)
+  
+  <li>Now Click On <b>ALLOW ACCESS FROM ANYWHERE</b> and then <b>Confirm</b> it will take some time so wait</li>
+  
+  ![mango11](https://user-images.githubusercontent.com/46376370/112162447-f89fee80-8be3-11eb-94dc-3be4af84385a.png)
+  
+  <li>When You see <b>Active</b> in <b>Network Access status</b> like given below then click on <b>Database Access</b></li>
+  
+  ![mango12](https://user-images.githubusercontent.com/46376370/112162942-706e1900-8be4-11eb-9d22-b971bd10e25b.png)
+  
+  <li>Now click on <b>Add New Database User</b></li>
+  
+  ![mango13](https://user-images.githubusercontent.com/46376370/112164448-cbecd680-8be5-11eb-9ddc-c178c2057cfc.png)
+  
+  <li>After that add new user <b>Username</b> and <b>Password</b> and click on <b>Add User</b></li>
+  
+  ![mango14](https://user-images.githubusercontent.com/46376370/112165077-53d2e080-8be6-11eb-8ea3-a9cfcb2e297c.png)
+  
+  <li>Now New user is created its time to get database url which you will find in clusters</li>
+  
+  ![mango15](https://user-images.githubusercontent.com/46376370/112165440-a6140180-8be6-11eb-80f7-1e02dd7a3bcf.png)
+  
+  <li>As you can see here our cluster is created not its time for connection so click on <b>CONNECT</b></li>
+  
+  ![mango16](https://user-images.githubusercontent.com/46376370/112165876-0c008900-8be7-11eb-8d8f-25939dd6b618.png)
+  
+  <li>Now click on <b>Connect your application</b></li>
+  
+  ![mango16](https://user-images.githubusercontent.com/46376370/112166171-4e29ca80-8be7-11eb-972b-3f504131ca56.png)
+  
+  <li>Now select <b>python</b> version <b>3.6 or later</b> and copy the url as show below and you will get your url</li>
+  
+  ![mango18](https://user-images.githubusercontent.com/46376370/112166947-fe97ce80-8be7-11eb-93e8-cf34d8f60a91.png)
   
 </ul>
 
