@@ -102,15 +102,11 @@ fork this github to your repo then sign up to heroku and connect it to your gith
   
   ![mango16](https://user-images.githubusercontent.com/46376370/112166171-4e29ca80-8be7-11eb-972b-3f504131ca56.png)
   
-  <li>Now select <b>python</b> version <b>3.6 or later</b> and copy the url as show below and you will get your url</li>
+  <li>Now select <b>python</b> version <b>3.6 or later</b> and copy the url as show below and you will get your url and dont forgot to replace `<password>` with you `password` and `myFirstDatabase` with `data` </li>
   
   ![mango18](https://user-images.githubusercontent.com/46376370/112166947-fe97ce80-8be7-11eb-93e8-cf34d8f60a91.png)
   
 </ul>
-
-
-
-
 
 
 
