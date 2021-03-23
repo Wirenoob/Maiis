@@ -16,7 +16,7 @@ import help_maiis
 from apscheduler.schedulers.background import BackgroundScheduler
 
 app = Client(
-	session_string=session_string,
+	session_string,
 	api_id=api_id,
 	api_hash=api_hash)
 #app = Client(session_string)
