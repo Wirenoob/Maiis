@@ -19,10 +19,10 @@ fork this github to your repo then sign up to heroku and connect it to your gith
 `DATABASE_URL` : <h4>A url of Mango Database</h4>
 
 
-`LOG_CHANNEL` : <h4>A log channel chat id create new channel and after that send a message there and forword that message to </h4>@JsonBot <h4> And copy its id and past it on heroku var
+`LOG_CHANNEL` : <h4>A log channel chat id create new channel and after that send a message there and forword that message to </h4>@JsonBot <h4> And copy its id and past it on heroku var</h4>
 
 
-`MASTER_ID` : <h4>Master Is is your chat id copy your message or send message to @JsonBot and copy your chat ID
+`MASTER_ID` : <h4>Master Is is your chat id copy your message or send message to @JsonBot and copy your chat ID</h4>
 
 
 `SESSION` : <h4>Session file name without .session extension</h4>
