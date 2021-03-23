@@ -38,7 +38,28 @@ fork this github to your repo then sign up to heroku and connect it to your gith
   
   ![mango1](https://user-images.githubusercontent.com/46376370/112157215-ebcccc00-8bde-11eb-83ef-2cf8501acd3e.png)
   
-  <li>Then 
+  <li>Then Click On Sigup With google or you can also fill out the form to create new account</li>
+  
+  ![mango2](https://user-images.githubusercontent.com/46376370/112157767-6f86b880-8bdf-11eb-8687-52f271d2dda8.png)
+  
+  <li>After sigup click click <b>I accept the Privacy Policy and the Terms of Service</b> and submit</li>
+  
+  ![mango3](https://user-images.githubusercontent.com/46376370/112158924-8a0d6180-8be0-11eb-8f91-6aa3802cbae9.png)
+  
+  <li>After That You will see screen like given below then wait for some time</li>
+  
+  ![mango4](https://user-images.githubusercontent.com/46376370/112159181-c50f9500-8be0-11eb-9535-c2d2d16f33af.png)
+  
+  <li>After That Enter <b>Organization</b> and <b>Project Name</b> Anything you want</li>
+  
+  ![mango5](https://user-images.githubusercontent.com/46376370/112159744-639bf600-8be1-11eb-8515-c97662131568.png)
+  
+  <li>After that select <b>python</b> and click on <b>continue</b></li>
+  
+  ![mango6](https://user-images.githubusercontent.com/46376370/112160153-cee5c800-8be1-11eb-88a0-3f3389a64b2e.png)
+  
+  <li></li>
+  
 </ul>
 
 
