@@ -15,10 +15,11 @@ import random
 import help_maiis
 from apscheduler.schedulers.background import BackgroundScheduler
 
-app = Client(
-	session_string,
-	api_id=api_id,
-    api_hash=api_hash)
+#app = Client(
+#	session_string,
+#	api_id=api_id,
+#    api_hash=api_hash)
+app = Client(session_string)
 
 app.set_parse_mode("markdown")
 
